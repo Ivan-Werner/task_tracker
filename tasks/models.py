@@ -1,7 +1,7 @@
 from django.db import models
 
 from django.db import models
-from emploees.models import Employee
+from employees.models import Employee
 
 class Task(models.Model):
     STATUS_CHOICES = [
